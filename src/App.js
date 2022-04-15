@@ -10,10 +10,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-          Hello
-        </p>
+        <main className="App-intro">
+          <p>
+            To get started, edit <code>src/App.js</code> and save to reload.
+          </p>
+          <p>
+            Try editing from local environment
+          </p>
+        </main>
       </div>
     );
   }
